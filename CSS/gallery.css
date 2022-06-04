@@ -32,4 +32,8 @@ body{ background-color: #86f9ae;
 .navbar > a:hover{color:blue;
                  }
 
+ header{ position: fixed;
+          width: 100%;
+                     }
+                               
 /* styling for nav bar end */
