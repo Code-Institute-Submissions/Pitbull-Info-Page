@@ -72,6 +72,6 @@ footer{
        text-align: center;
    }
    
-   
+   footer p{font-family:sans-serif;}
    
    /* styling for footer end */
