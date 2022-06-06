@@ -1,77 +1,66 @@
-html{height:100%}
+html{margin:0;
+  padding:0;}
 
-body{ background-color: #86f9ae;
-   min-height: 100vh;
-     width: 100%;
-     margin: 0;
-     padding: 0;
-     
+body{ padding: 0;
+   margin: 0;
+   border:0;
+  background-color: #0df80d;}
+
+/* Nav Bar Styling Begin */
+
+header{margin:0;
+    padding:0;
+    height: auto}
+
+nav{padding:0;
+  margin: 0;
+  background-color: black;
+  display: block;}
+
+nav > ul{margin:0;
+      padding:0;
+      display: flex;
+      width: 100vw;}
+
+nav li{width: 33.3%;
+     text-align: center;
      }
- header{background-color:black;
-        height: 5vh;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-       }   
-#navbarul {margin: 0;
-          display: flex;
-          width: 100%}
 
-.navbar {width:33.3%;
-       list-style-type: none;
-       box-sizing: border-box;
-       text-align: justify;
+nav a{font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 4vh;
+    }
+nav a:hover{color:blue;}
+
+/* Nav Bar Styling End */
+
+
+
+/* Footer Styling Begin */
+
+footer{position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background: black;
+     width: 100vw;
+    height: auto;}
+
+footer p{color: white;
+      font-family: sans-serif;
+       text-align: center;
       }
 
-.navbar > a{text-decoration: none;
-            font-size: 4vh;
-            color: white;
-            font-family: sans-serif;
-            }
+footer ul{display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        }
 
-.navbar > a:hover{color:blue;
-                 }
+footer li{padding: 0 20px;
+        }
 
-header{ position: fixed;
-        width: 100%;
-                     }
-               
-/* styling for nav bar end */
-
-/* styling for footer begin */
-
-footer{
-       position: absolute;
-       bottom: 0;
-       left: 0;
-       right: 0;
-       background: #111;
-       height: auto;
-       width: 100vw;
-       padding-top: 40px;
-       color: #fff;
-   }
-   
-   .footerul{display: flex;
-             padding: 0;
-             
-             
-     }
-            
-   .footerul > li {text-decoration: none;
-             list-style-type: none;
-                  margin: 0 30px;
-                  padding: 0;}
-   
-   .footer-content{
-     padding: 0;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       flex-direction: column;
-       text-align: center;
-   }
-   
-   footer p{font-family:sans-serif;}
-   
-   /* styling for footer end */
+/* Footer Styling End */
