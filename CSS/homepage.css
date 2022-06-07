@@ -53,9 +53,10 @@ h1{text-align: center;
 
 /* Intro Styling Begin */
 
-#intro-pic{ display: inline-block;
+#intro-pic{display: block;
       float: left;
-     padding: 0 10px;}
+     padding: 0 10px;
+}
 
 #intro-para > p{ font-size: 20px;
        }
