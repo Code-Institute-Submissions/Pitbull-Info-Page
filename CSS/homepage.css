@@ -2,7 +2,7 @@ html{margin:0;
     padding:0;}
 
 body{ padding: 0;
-     margin: 0;
+     margin: 0 0 200px 0;
      border:0;
     background-color: #0df80d;}
 
@@ -106,7 +106,7 @@ footer li{padding: 0 20px;
       footer{width: 100%;}
       
       nav{width: 100%}
-      
+
         #intro-pic{display: block;
                    width: 100%;
                    text-align: center;
