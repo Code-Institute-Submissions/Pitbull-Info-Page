@@ -103,9 +103,8 @@ footer li{padding: 0 20px;
         #intro-pic{display: block;
                    width: 100%;
                    text-align: center;
-                   border: 5px solid black;
                    }
-      
+      #intro-pic img{border: 5px solid black;}
         
       #intro-para{display:block;
                 width: 100%;
