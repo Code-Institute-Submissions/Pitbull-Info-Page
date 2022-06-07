@@ -36,6 +36,17 @@ nav a:hover{color:blue;}
 
 /* Nav Bar Styling End */
 
+/* Intro Styling Begin */
+
+#intro-pic{ display: inline-block;
+      float: left;
+     padding: 0 10px;}
+
+#intro-para > p{ font-size: 20px;
+       }
+
+/* Intro Styling End */
+
 
 
 /* Footer Styling Begin */
