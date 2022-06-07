@@ -68,6 +68,28 @@ h1{text-align: center;
 
 /* Intro Styling End */
 
+/* Breed characteristics styling begin */
+
+#breedchardiv { padding-top: 30px;
+      text-align: left;
+                   display: inline-block;
+                   background-color: #25d425
+                   
+                   }
+    #breedchardiv > h2 {
+                       text-decoration: underline;
+                       font-weight: bold;
+      text-align: center;
+    font-family: sans-serif;}
+           
+    #breedchardiv li {list-style-type: square; 
+                     font-family: sans-serif;
+                     font-weight: thick;}
+           
+    
+    
+    /* Breed characteristics styling end */
+
 
 
 /* Footer Styling Begin */
