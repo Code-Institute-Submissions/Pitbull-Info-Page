@@ -59,7 +59,12 @@ h1{text-align: center;
 }
 
 #intro-para > p{ font-size: 20px;
+      font-family: sans-serif;
        }
+
+#intro-pic > img{box-sizing: border-box;
+            border: 5px solid black; }
+       
 
 /* Intro Styling End */
 
@@ -104,13 +109,13 @@ footer li{padding: 0 20px;
                    width: 100%;
                    text-align: center;
                    }
-      #intro-pic img{border: 5px solid black;}
+                  
         
       #intro-para{display:block;
                 width: 100%;
                  text-align: center;}
       
-      #intro-para > p{font-family: sans-serif;}
+      
       
         
       }
