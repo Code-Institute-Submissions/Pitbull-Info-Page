@@ -103,6 +103,7 @@ footer li{padding: 0 20px;
         #intro-pic{display: block;
                    width: 100%;
                    text-align: center;
+                   border: 5px solid black;
                    }
       
         
@@ -110,6 +111,7 @@ footer li{padding: 0 20px;
                 width: 100%;
                  text-align: center;}
       
+      #intro-para > p{font-family: sans-serif;}
       
         
       }
