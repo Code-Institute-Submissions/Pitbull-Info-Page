@@ -91,3 +91,27 @@ footer li{padding: 0 20px;
           }
 
 /* Footer Styling End */
+
+/* Media Query CSS Start */
+
+@media screen and (max-width: 530px) {
+
+
+  
+      footer{width: 100%;}
+      
+        #intro-pic{display: block;
+                   width: 100%;
+                   text-align: center;
+                   }
+      
+        
+      #intro-para{display:block;
+                width: 100%;
+                 text-align: center;}
+      
+      
+        
+      }
+      
+      /* Media Query CSS End */
