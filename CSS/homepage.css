@@ -92,6 +92,24 @@ h1{text-align: center;
     
     /* Breed characteristics styling end */
 
+    /* Breed History Styling Start */
+
+#breedhisdiv > h2 {margin: 10px;
+      text-align: center;
+      font-family: sans-serif;
+      text-decoration: underline;
+      }
+
+iframe {clear: both;
+display: block;
+margin: 10px;
+width: 100vw;
+height: 250px;
+box-sizing: border-box;
+border: 5px solid #000000;}
+/* Breed History Styling End */
+
+
 
 
 /* Footer Styling Begin */
