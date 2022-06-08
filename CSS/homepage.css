@@ -1,167 +1,225 @@
 html{margin:0;
-    padding:0;}
-
-body{ padding: 0;
-     margin: 0 0 200px 0;
-     border:0;
-    background-color: #0df80d;}
-
-/* Nav Bar Styling Begin */
-
-header{margin:0;
-      padding:0;
-      height: auto}
-
-nav{padding:0;
-    margin: 0;
-    background-color: black;
-    display: block;}
-
-nav > ul{margin:0;
-        padding:0;
-        display: flex;
-        width: 100vw;}
-
-nav li{width: 33.3%;
-       text-align: center;
-       }
-
- nav a{font-family: sans-serif;
-      list-style-type: none;
-      text-decoration: none;
-      color: white;
-      font-size: 3.5vw;
-      }
-nav a:hover{color:blue;}
-
-/* Nav Bar Styling End */
-
-/* Title Styling Begin */
-.title{display: block;
-      margin: 0;
-      padding: 0;
-      }
-
-h1{text-align: center;
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  }
-      
-
-      
-/* Title styling end */
-
-/* Intro Styling Begin */
-
-#intro-pic{display: block;
-      float: left;
-     padding: 0 10px;
-}
-
-#intro-para > p{ font-size: 20px;
-      font-family: sans-serif;
-       }
-
-#intro-pic > img{box-sizing: border-box;
-            border: 5px solid black; }
-       
-
-/* Intro Styling End */
-
-/* Breed characteristics styling begin */
-
-#breedchardiv { padding-top: 30px;
-      text-align: left;
-                   display: inline-block;
-                   background-color: #25d425
-                   
-                   }
-    #breedchardiv > h2 {
-                       text-decoration: underline;
-                       font-weight: bold;
-      text-align: center;
-    font-family: sans-serif;}
-
-    #breedchardiv > ul{font-family: sans-serif;
-      font-weight: bold;}
-           
-    #breedchardiv li {list-style-type: square; 
-                     }
-           
-    
-    
-    /* Breed characteristics styling end */
-
-    /* Breed History Styling Start */
-
-#breedhisdiv > h2 {margin: 10px;
-      text-align: center;
-      font-family: sans-serif;
-      text-decoration: underline;
-      }
-
-iframe {clear: both;
-display: block;
-
-width: 100vw;
-height: 250px;
-box-sizing: border-box;
-border: 5px solid #000000;}
-/* Breed History Styling End */
-
-
-
-
-/* Footer Styling Begin */
-
-footer{position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      display: block;
-      background: black;
-       width: 100vw;
-      height: auto;}
-
-footer p{color: white;
-        font-family: sans-serif;
-         text-align: center;
-        }
-
-footer ul{display: flex;
-          align-items: center;
-          text-align: center;
-          justify-content: center;
-          }
-
-footer li{padding: 0 20px;
-          }
-
-/* Footer Styling End */
-
-/* Media Query CSS Start */
-
-@media screen and (max-width: 536px) {
-
-
+      padding:0;}
   
-      footer{width: 100%;}
-      
-      nav{width: 100%}
-
-        #intro-pic{display: block;
-                   width: 100%;
-                   text-align: center;
-                   }
-                  
+  body{ padding: 0;
+       margin: 0 0 20vh 0;
+       border:0;
+      background-color: #0df80d;}
+  
+  /* Nav Bar Styling Begin */
+  
+  header{margin:0;
+        padding:0;
+        height: auto}
+  
+  nav{padding:0;
+      margin: 0;
+      background-color: black;
+      display: block;}
+  
+  nav > ul{margin:0;
+          padding:0;
+          display: flex;
+          width: 100vw;}
+  
+  nav li{width: 33.3%;
+         text-align: center;
+         }
+  
+   nav a{font-family: sans-serif;
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+        font-size: 3.5vw;
+        }
+  nav a:hover{color:blue;}
+  
+  /* Nav Bar Styling End */
+  
+  /* Title Styling Begin */
+  .title{display: block;
+        margin: 0;
+        padding: 0;
+        }
+  
+  h1{text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    }
         
-      #intro-para{display:block;
-                width: 100%;
-                 text-align: center;}
-      
-      
-      
+  
         
-      }
+  /* Title styling end */
+  
+  /* Intro Styling Begin */
+  
+  #intro-pic{display: block;
+        float: left;
+       padding: 0 10px;
+       box-sizing: border-box;
+  }
+  
+  #intro-para > p{ font-size: 20px;
+        font-family: sans-serif;
+         }
+  
+  #intro-pic > img{box-sizing: border-box;
+              border: 5px solid black; }
+         
+  
+  /* Intro Styling End */
+  
+  /* Breed characteristics styling begin */
+  
+  #breedchardiv { padding-top: 30px;
+        text-align: left;
+        
+                     display: inline-block;
+                     background-color: #25d425
+                     
+                     }
+      #breedchardiv > h2 {
+                         text-decoration: underline;
+                         font-weight: bold;
+        text-align: center;
+      font-family: sans-serif;}
+  
+      #breedchardiv > ul{font-family: sans-serif;
+        font-weight: bold;}
+             
+      #breedchardiv li {list-style-type: square; 
+                       }
+             
       
-      /* Media Query CSS End */
+      
+      /* Breed characteristics styling end */
+  
+      /* Breed History Styling Start */
+  
+  #breedhisdiv > h2 {padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        font-family: sans-serif;
+        text-decoration: underline;
+        }
+  
+  iframe {clear: both;
+  display: block;
+  
+  width: 100vw;
+  height: 400px;
+  box-sizing: border-box;
+  border: 5px solid #000000;}
+  /* Breed History Styling End */
+  
+  /* Breed Misconceptions Styling Start */
+  
+  #breedmiscon {display: flex;
+               background-color: #25d425;
+               width: 100vw;
+              height: auto;
+                align-content: center;
+                
+        }
+  
+  #breedmiscontitle {
+                    box-sizing: border-box;
+                    height: 100%;
+                    margin: 20px 0;
+                    padding: 20px ;}
+  
+  #breedmiscontitle > h2{font-family: sans-serif;
+                        text-decoration: underline;}
+  
+  #stereotypes {
+               box-sizing: border-box;
+               height: 100%;
+                padding: 20px;
+                margin:0;
+              font-family: sans-serif;
+    font-weight: bold;
+    
+                
+               }
+  
+  #inreality{
+            box-sizing: border-box;
+            padding: 20px;
+            height: 100%;
+             margin: 0;
+             font-family: sans-serif;
+    font-weight: bold;
+            }
+  
+  /* Breed Misconceptions Styling End */
+  
+  /* Footer Styling Begin */
+  
+  footer{position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: block;
+        background: black;
+         width: 100vw;
+        height: auto;
+  }
+  
+  footer p{color: white;
+          font-family: sans-serif;
+           text-align: center;
+          }
+  
+  footer ul{display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            }
+  
+  footer li{padding: 0 20px;
+            }
+  
+  /* Footer Styling End */
+  
+  /* Media Query CSS Start */
+  
+  @media screen and (max-width: 536px) {
+  
+  
+    
+        footer{width: 100%;}
+        
+        nav{width: 100%}
+  
+          #intro-pic{display: block;
+                     width: 100%;
+                     text-align: center;
+                     }
+                    
+          
+        #intro-para{display:block;
+                  width: 100%;
+                   text-align: center;}
+        
+        
+        
+          
+        }
+  
+  @media screen and (max-width: 1200px) {
+  
+  #breedmiscon {display:block;
+                    width: 100%;}
+  
+  #breedmiscontitle > h2 {
+                         width: 100%;}
+  
+  #stereotypes {
+               width: 100%;
+  }
+  
+  #inreality {
+              
+             width: 100%;}
+  }
+        /* Media Query CSS End */
