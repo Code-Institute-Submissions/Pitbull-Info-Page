@@ -2,7 +2,7 @@ html{margin:0;
   padding:0;}
 
 body{ padding: 0;
-   margin: 0 0 200px 0;
+   margin: 0 0 20vh 0;
    border:0;
   background-color: #0df80d;}
 
@@ -36,8 +36,6 @@ nav a:hover{color:blue;}
 
 /* Nav Bar Styling End */
 
-
-
 /* Footer Styling Begin */
 
 footer{position: fixed;
@@ -47,7 +45,8 @@ footer{position: fixed;
     display: block;
     background: black;
      width: 100vw;
-    height: auto;}
+    height: auto;
+}
 
 footer p{color: white;
       font-family: sans-serif;
