@@ -47,9 +47,7 @@ html{margin:0;
     font-size: 1.5rem;
     }
         
-  
-        
-  /* Title styling end */
+    /* Title styling end */
   
   /* Intro Styling Begin */
   
@@ -66,18 +64,16 @@ html{margin:0;
   #intro-pic > img{box-sizing: border-box;
               border: 5px solid black; }
          
-  
   /* Intro Styling End */
   
   /* Breed characteristics styling begin */
   
   #breedchardiv { padding-top: 30px;
         text-align: left;
-        
-                     display: inline-block;
-                     background-color: #25d425
-                     
-                     }
+        display: inline-block;
+       background-color: #25d425
+                      }
+
       #breedchardiv > h2 {
                          text-decoration: underline;
                          font-weight: bold;
@@ -90,9 +86,7 @@ html{margin:0;
       #breedchardiv li {list-style-type: square; 
                        }
              
-      
-      
-      /* Breed characteristics styling end */
+       /* Breed characteristics styling end */
   
       /* Breed History Styling Start */
   
@@ -119,8 +113,7 @@ html{margin:0;
                width: 100vw;
               height: auto;
                 align-content: center;
-                
-        }
+                 }
   
   #breedmiscontitle {
                     box-sizing: border-box;
@@ -138,9 +131,7 @@ html{margin:0;
                 margin:0;
               font-family: sans-serif;
     font-weight: bold;
-    
-                
-               }
+      }
   
   #inreality{
             box-sizing: border-box;
@@ -185,9 +176,7 @@ html{margin:0;
   
   @media screen and (max-width: 536px) {
   
-  
-    
-        footer{width: 100%;}
+  footer{width: 100%;}
         
         nav{width: 100%}
   
@@ -196,30 +185,21 @@ html{margin:0;
                      text-align: center;
                      }
                     
-          
-        #intro-para{display:block;
+          #intro-para{display:block;
                   width: 100%;
                    text-align: center;}
         
-        
-        
-          
-        }
+                  }
   
   @media screen and (max-width: 1200px) {
   
   #breedmiscon {display:block;
                     width: 100%;}
   
-  #breedmiscontitle > h2 {
-                         width: 100%;}
+  #breedmiscontitle > h2 {width: 100%;}
   
-  #stereotypes {
-               width: 100%;
-  }
+  #stereotypes {width: 100%;}
   
-  #inreality {
-              
-             width: 100%;}
+  #inreality {width: 100%;}
   }
         /* Media Query CSS End */
