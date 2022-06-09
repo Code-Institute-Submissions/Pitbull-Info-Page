@@ -36,6 +36,39 @@ nav a:hover{color:blue;}
 
 /* Nav Bar Styling End */
 
+/* Quiz Styling Start */
+
+#questions {background-color: #25d425; 
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 100vw;}
+
+h1{font-family: sans-serif;
+display: block;
+text-align: center;
+width: 100vw;}
+
+h2{font-family: sans-serif;
+text-decoration: underline;
+text-align: center;
+width: 100vw;}
+
+p{font-family: sans-serif;
+text-align: center;}
+
+ol{font-family: sans-serif;
+font-weight: bold;
+text-align: center;}
+
+#answers {width:100vw;
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 100vw;}
+
+/* Quiz Styling End */
+
 /* Footer Styling Begin */
 
 footer{position: fixed;
