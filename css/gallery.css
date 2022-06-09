@@ -36,6 +36,41 @@ nav a:hover{color:blue;}
 
 /* Nav Bar Styling End */
 
+/* Gallery code start */
+
+#images{width:100vw}
+
+#imgdiv {display:block;
+       width: 100vw;
+        text-align: center;}
+
+.pitimg {box-sizing: border-box;
+        border: 5px solid black;}
+
+h2{font-family: sans-serif;
+  text-decoration: underline;
+  display: block; 
+  text-align: center;}
+
+h1{font-family: sans-serif;
+  display: block; 
+  text-align: center;}
+
+#videos {clear:both; 
+         width: 100vw;}
+
+#viddiv{display:block;
+       width: 100vw;
+        text-align: center;}
+
+.pitvid {box-sizing: border-box;
+        border: 5px solid black;}
+
+
+
+
+/* Gallery code end */
+
 /* Footer Styling Begin */
 
 footer{position: fixed;
